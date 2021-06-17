@@ -71,7 +71,7 @@
               <p>
                 FOOD ZONE, es un software con acceso vía Web, y APP’s de iOS y Android para facilitar la interacción entre usuarios y los establecimientos de la Industria de Alimentos y Bebidas, la Industria de la Hospitalidad, y la Industria del Entretenimiento. 
               </p>
-              <button href="" class="btn-lg">Click here</button>
+             
             </div>
           </div>
         </div>
@@ -367,7 +367,7 @@
       <div class="row">
         <div class="main_mobail_apps_content wow zoomIn">
           <div class="col-md-5 col-sm-12 text-center">
-            <img src="assets/images/iphone.png" alt="" />
+            <img src="./img/FZ3.png" alt="" />
           </div>
           <div class="col-md-7 col-sm-12">
             <div class="single_monail_apps_text">
