@@ -13,7 +13,7 @@ import Contact from "./views/Contact.svelte";
 
 
 
-	<div>
+	<div class="container-fluid">
 		
 		<Router>
 			<Header></Header>
