@@ -1,7 +1,7 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
-  import Header from "./components/Header.svelte";
-  import Footer from "./components/Footer.svelte";
+  import Header from "./modules/Header.svelte";
+  import Footer from "./modules/Footer.svelte";
   import Home from "./views/Home.svelte";
   import Partners from "./views/Partners.svelte";
   import About from "./views/About.svelte";
