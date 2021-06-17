@@ -11,9 +11,7 @@ import Contact from "./views/Contact.svelte";
 </script>
 
 
-
-
-	<div class="container-fluid">
+	<div>
 		
 		<Router>
 			<Header></Header>
