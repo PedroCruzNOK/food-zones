@@ -8,7 +8,7 @@
         <div class="footer_widget_content text-center">
           <div class="col-md-3 in">
             <div class="single_widget wow fadeIn" data-wow-duration="2s">
-              <h3>Take it easy with location</h3>
+              <h3>Ubicacion</h3>
   
               <div class="single_widget_info">
                 <p>
@@ -16,8 +16,8 @@
   
                   <span>Te elit putent propriae eum,</span>
                   <span>aliquip nominati</span>
-                  <span class="phone_email">phone: 00 000 000</span>
-                  <span>Email: support@templatemela.com</span>
+                  <span class="phone_email"> Teléfono: (222) 620 0600</span>
+                  <span>Corre: @foodzone.com</span>
                 </p>
               </div>
   
