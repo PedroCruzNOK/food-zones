@@ -8,6 +8,8 @@
   import Home from "./views/Home.svelte";
   import Partners from "./views/Partners.svelte";
   import About from "./views/About.svelte";
+  import Pedir from "./views/Pedri.svelte"
+  import Noticias from "./views/Noticias.svelte"
   import Questions from "./views/Questions.svelte";
   import Conditions from "./views/Conditions.svelte";
   import Contact from "./views/Contact.svelte";
@@ -26,6 +28,12 @@
 				<About />	
 			</Route>
 			<Route path="/preguntas-frecuentes">
+				<FrequentQuestions />	
+			</Route>
+			<Route path="/pedri">
+				<FrequentQuestions />	
+			</Route>
+			<Route path="/noticias">
 				<FrequentQuestions />	
 			</Route>
 			<Route path="/terminos-condiciones">

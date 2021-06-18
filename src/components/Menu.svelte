@@ -32,6 +32,12 @@
                       <Link to="/nosotros" class="nav-link active">Nosotros</Link>
                     </li>
                     <li class="nav-item">
+                      <Link to="/pedir" class="nav-link active">Pedido</Link>
+                    </li>
+                    <li class="nav-item">
+                      <Link to="/noticias" class="nav-link active">Noticias</Link>
+                    </li>
+                    <li class="nav-item">
                       <Link to="/preguntas-frecuentes" class="nav-link active">Preguntas </Link>
                     </li>
                     <li class="nav-item">
