@@ -1,4 +1,5 @@
 <script>
+	import ContactUs from './views/ContactUs.svelte';
 	import FrequentQuestions from './views/FrequentQuestions.svelte';
 	import TermsAndConditions from './views/TermsAndConditions.svelte';
   import { Router, Link, Route } from "svelte-routing";
@@ -31,7 +32,7 @@
 				<TermsAndConditions />	
 			</Route>
 			<Route path="/contacto">
-				<Contact />	
+				<ContactUs />	
 			</Route>
 			<Footer></Footer>
 		</Router>

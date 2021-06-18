@@ -103,7 +103,7 @@ ul {
 img {
     max-width: 100%;
 }
-textarea,
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -124,9 +124,8 @@ input[type="color"],
 .form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
     font-size: 16px;
-    height: 34px;
     max-width: 90%;
-    background: #323232;
+    background: rgba(245, 99, 99, 0.2);
 }
 .form-control:focus {
     border-color: #d6962c;
