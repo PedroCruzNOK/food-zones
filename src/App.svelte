@@ -1,4 +1,6 @@
 <script>
+	import FrequentQuestions from './views/FrequentQuestions.svelte';
+	import TermsAndConditions from './views/TermsAndConditions.svelte';
   import { Router, Link, Route } from "svelte-routing";
   import Header from "./modules/Header.svelte";
   import Footer from "./modules/Footer.svelte";
@@ -23,10 +25,10 @@
 				<About />	
 			</Route>
 			<Route path="/preguntas-frecuentes">
-				<Questions />	
+				<FrequentQuestions />	
 			</Route>
 			<Route path="/terminos-condiciones">
-				<Conditions />	
+				<TermsAndConditions />	
 			</Route>
 			<Route path="/contacto">
 				<Contact />	
