@@ -1,12 +1,7 @@
 <script>
-  const showAnswer = (element) => {
-    if (element.srcElement.nextSibling.nextSibling.style.display == "none") {
-      element.srcElement.nextSibling.nextSibling.style.display = "block";
-    } else {
-      if (element.srcElement.nextSibling.nextSibling.style.display == "block") {
-        element.srcElement.nextSibling.nextSibling.style.display = "none";
-      }
-    }
+  const showHide = (element) => {
+    let id = element.srcElement.parentNode.parentNode.lastChild.id;
+   console.log(id)
   };
 </script>
 
@@ -17,54 +12,138 @@
         <div class="row justify-content-center">
           <div class="col-8">
             <h4
-              class="display-3 fw-normal wow animated rubberBand"
+              class="display-3 fw-normal wow animated rubberBand py-5"
               data-animation="flash"
             >
               Preguntas Frecuentes
             </h4>
-            <ul class="list-group list-group-flush wow animated bounceInLeft">
-              <li class="list-group-item">
-                <p class="fw-bold" on:click={(event) => showAnswer(event)}>
-                  1. ¿La app es compatible en Android?
-                </p>
-                <span style="display:none;">
-                  Si, la app está disponible tanto en Android como en IOS.
-                </span>
-              </li>
-              <li class="list-group-item">
-                <p class="fw-bold" on:click={(event) => showAnswer(event)}>
-                  2. ¿Cómo puedo crear mi Monedero Electrónico?
-                </p>
-                <span style="display:none;">
-                  El monedero electrónico se crea automáticamente al crear una
-                  cuenta.
-                </span>
-              </li>
-              <li class="list-group-item">
-                <p class="fw-bold" on:click={(event) => showAnswer(event)}>
-                  3. ¿En qué países está disponible FoodZone?
-                </p>
-                <span style="display:none;" on:click={(event) => showAnswer(event)}>
-                  Por el momento está disponible en Estados Unidos y en México.
-                </span>
-              </li>
-              <li class="list-group-item" on:click={(event) => showAnswer(event)}>
-                <p class="fw-bold">4. ¿Cuánto cuesta descargar la app?</p>
-                <span style="display:none;">
-                  La app es totalmente gratuita.</span
+
+            <div class="accordion pb-5" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header " id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOne"
+                    on:click={(event) => showHide(event)}
+                  >
+                    1. ¿La app es compatible en Android?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse "
+                  aria-labelledby="panelsStayOpen-headingOne"
                 >
-              </li>
-              <li class="list-group-item" on:click={(event) => showAnswer(event)}>
-                <p class="fw-bold">
-                  5. ¿En dónde puedo utilizar mis puntos del monedero
-                  electrónico?
-                </p>
-                <span style="display:none;" on:click={(event) => showAnswer(event)}>
-                  En cualquier establecimiento que esté dado de alta con
-                  FoodZone.
-                </span>
-              </li>
-            </ul>
+                  <div class="accordion-body">
+                    Si, la app está disponible tanto en Android como en IOS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="pregunta-2">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta-2-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="pregunta-2-collapseThree"
+                  >
+                    2. ¿Cómo puedo crear mi Monedero Electrónico?
+                  </button>
+                </h2>
+                <div
+                  id="pregunta-2-collapseThree"
+                  class="accordion-collapse collapse "
+                  aria-labelledby="pregunta-2"
+                >
+                  <div class="accordion-body">
+                    El monedero electrónico se crea automáticamente al crear una
+                    cuenta.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="pregunta-3">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta-3-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="pregunta-3-collapseThree"
+                  >
+                    3. ¿En qué países está disponible FoodZone?
+                  </button>
+                </h2>
+                <div
+                  id="pregunta-3-collapseThree"
+                  class="accordion-collapse collapse "
+                  aria-labelledby="pregunta-3"
+                >
+                  <div class="accordion-body">
+                    Por el momento está disponible en Estados Unidos y en
+                    México.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="pregunta-4">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta-4-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="pregunta-4-collapseThree"
+                  >
+                    4. ¿Cuánto cuesta descargar la app?
+                  </button>
+                </h2>
+                <div
+                  id="pregunta-4-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="pregunta-4"
+                >
+                  <div class="accordion-body">
+                    La app es totalmente gratuita.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed fw-bold"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    5. ¿En dónde puedo utilizar mis puntos del monedero
+                    electrónico?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    En cualquier establecimiento que esté dado de alta con
+                    FoodZone.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
