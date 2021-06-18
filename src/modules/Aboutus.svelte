@@ -2,22 +2,23 @@
     <div class="container">
       <div class="row">
         <div class="abouts_content">
-          <div class="col-md-6">
+
+          <div class="col-md-12">
             <div
               class="single_abouts_text text-center wow slideInLeft"
               data-wow-duration="1s"
             >
-              <img src="assets/images/ab.png" alt="" />
+              <img src="assets/images/beneficios1.png" alt="" />
             </div>
           </div>
   
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div
               class="single_abouts_text wow slideInRight"
               data-wow-duration="1s"
             >
-              <h4>About us</h4>
-              <h3>WE ARE TASTY</h3>
+              <h4>Acerca de nosotros</h4>
+              <h3>Que te ofrecemos</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's stan

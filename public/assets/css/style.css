@@ -12,13 +12,13 @@ Author URI: http://bootstrapthemes.co
 html,
 body {
     background-color: #1E2E3B;
-    font-size: 15px;
+    font-size: 18px;
     color: #565656;
     width: 100%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
@@ -144,7 +144,8 @@ h5 {
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Merienda One', cursive;
+    color: #D98014;
 
 }
 h1 {
@@ -170,7 +171,8 @@ h4 {
     font-size:1.875rem;
     line-height: 2.2rem;
     margin-bottom: 1.1rem;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Merienda One', cursive;
+    color: #D98014;
 
 }
 h5 {
@@ -182,11 +184,13 @@ h6 {
     margin-bottom: .9rem;
 }
 p {
+    font-family: 'Lato', sans-serif;
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
 p:last-child {
     margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 /*.home-wrap h1,*/
@@ -196,7 +200,7 @@ p:last-child {
 .home-wrap h5,
 .home-wrap p {
     color: #ffffff;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .text {
     color: #333333;
@@ -246,7 +250,7 @@ section{
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .parallax-section {
     max-width: 100%;
@@ -655,7 +659,7 @@ a.navbar-brand.our_logo{
 /* slider section */
 
 .slider{
-	background:url(../images/bannerbg.jpg) center center no-repeat;
+	background:url(../../img/FZ\ 1.png) center center no-repeat;
 	background-size:cover;
 }
 .main_slider {
@@ -663,8 +667,8 @@ a.navbar-brand.our_logo{
 }
 .main_slider .main_slider_content h1{
 font-size: 6rem;
-    font-family: 'Pacifico', cursive;
-    color: #fff;
+font-family: 'Merienda One', cursive;
+color: #D98014;
     line-height: 6rem;
     margin:0px 0px 60px 0px;
 }	
@@ -686,7 +690,7 @@ font-size: 6rem;
 /* Abouts Section css */
 
 .abouts{
-	 background: url(../images/abtbg.jpg) no-repeat center top scroll;
+	 background: url(../../img/images.jpg) no-repeat center top scroll;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -810,8 +814,8 @@ font-size: 6rem;
 	
 }
 .ourPakeg .main_pakeg_content .head_title h4{
-	color:#fff;
-	font-family: 'Pacifico', cursive;
+	color: #D98014;
+	font-family: 'Merienda One', cursive;
 	font-size:1.875rem;
 }
 
@@ -863,7 +867,7 @@ font-size: 6rem;
 /* Mobail Apps Section css */
 
 .mobailapps{
-	background:url(../images/appsbg.jpg) top center no-repeat scroll;
+	background:url(../../img/tarjetaCompra.jpg) top center no-repeat scroll;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -933,8 +937,8 @@ font-size: 6rem;
 
 .single_widget h3{
     font-size:1.875rem;
-
-	font-family: 'Pacifico', cursive;	
+    color: #D98014;
+	font-family: 'Merienda One', cursive;
 }
 .single_widget_info p{
 	margin-top:40px;

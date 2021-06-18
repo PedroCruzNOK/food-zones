@@ -3,10 +3,10 @@
     import { Router, Link, Route } from "svelte-routing";
 </script>
 <section id="footer_widget" class="footer_widget">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="footer_widget_content text-center">
-          <div class="col-md-4">
+          <div class="col-md-3 in">
             <div class="single_widget wow fadeIn" data-wow-duration="2s">
               <h3>Take it easy with location</h3>
   
@@ -23,18 +23,14 @@
   
               <div class="footer_socail_icon">
                 <a href=""><i class="fa fa-facebook" /></a>
-                <a href=""><i class="fa fa-google-plus" /></a>
                 <a href=""><i class="fa fa-twitter" /></a>
-                <a href=""><i class="fa fa-linkedin" /></a>
-                <a href=""><i class="fa fa-pinterest-p" /></a>
-                <a href=""><i class="fa fa-youtube" /></a>
                 <a href=""><i class="fa fa-phone" /></a>
-                <a href=""><i class="fa fa-camera" /></a>
+               
               </div>
             </div>
           </div>
   
-          <div class="col-md-4">
+          <div class="col-md-3 in">
             <div class="single_widget wow fadeIn" data-wow-duration="4s">
               <h3>Take it easy with location</h3>
   
@@ -51,60 +47,6 @@
               </div>
             </div>
           </div>
-  
-          <div class="col-md-4">
-            <div class="single_widget wow fadeIn" data-wow-duration="5s">
-              <h3>Take it easy with location</h3>
-  
-              <div class="single_widget_form text-left">
-                <form action="#" id="formid">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="name"
-                      placeholder="first name"
-                      required=""
-                    />
-                  </div>
-  
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Email"
-                      required=""
-                    />
-                  </div>
-  
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Subject"
-                    />
-                  </div>
-                  <!-- end of form-group -->
-  
-                  <div class="form-group">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="3"
-                      placeholder="Message"
-                    />
-                  </div>
-  
-                  <input
-                    type="submit"
-                    value="click here"
-                    class="btn btn-primary"
-                  />
-                </form>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -112,3 +54,8 @@
   <div class="scrollup">
     <Link to="/"><i class="fa fa-chevron-up" /></Link>
   </div>
+  <style>
+    .in{
+      display: inline-block;
+    }
+  </style>
