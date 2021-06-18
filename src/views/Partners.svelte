@@ -1,7 +1,7 @@
 <script>
-    
+    import Portfolio from "../modules/Portfolio.svelte"
 </script>
 
 <div class="row">
-    hola colaborador
+    <Portfolio />
 </div>

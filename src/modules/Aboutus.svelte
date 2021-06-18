@@ -25,13 +25,9 @@
               </p>
   
               <p>
-                dard dummy text ever since the 1500s,when an unknown printer took
-                a galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesettingdard dummy text ever since the 1500s,when an
-                unknown printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries, but
-                also the leap into electronic typesetting
+                Permite al usuario tener una interacción cómoda, segura y completa para su experiencia con restaurantes y lugares de entretenimiento. 
+La plataforma permite hacer pagos con tarjeta de crédito o débito, así como por medio de crédito que se podrá abonar en efectivo al adquirir monederos electrónicos en los distintos puntos de venta. 
+
               </p>
   
               <a class="btn btn-primary">click here</a>

@@ -7,8 +7,8 @@
         >
           <div class="col-md-12">
             <div class="head_title text-center">
-              <h4>Delightful</h4>
-              <h3>Experience</h3>
+              <h4>Se parte de nuestro equipo!</h4>
+              <h3>Colaboradores</h3>
             </div>
   
             <div class="main_portfolio_content">
@@ -19,6 +19,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p2.png" alt="" />
@@ -27,6 +29,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p3.png" alt="" />
@@ -35,6 +39,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p4.png" alt="" />
@@ -43,6 +49,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p5.png" alt="" />
@@ -51,6 +59,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p6.png" alt="" />
@@ -59,6 +69,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p7.png" alt="" />
@@ -67,6 +79,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
               <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
                 <img src="assets/images/p8.png" alt="" />
@@ -75,6 +89,8 @@
                   <p class="product_price">$12</p>
                   <a href="" class="btn btn-primary">Click here</a>
                 </div>
+                <p>Descripcion de un colaborador</p>
+                <h5>juan</h5>
               </div>
             </div>
           </div>
