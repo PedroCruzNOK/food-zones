@@ -12,7 +12,8 @@
   
               <div class="single_widget_info">
                 <p>
-                  112-Legere ancillae vix ne.
+                  Acercate y te asesoramos
+                  
   
                   <span>Te elit putent propriae eum,</span>
                   <span>aliquip nominati</span>
