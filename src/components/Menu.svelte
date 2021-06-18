@@ -8,37 +8,42 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button
-                        type="button"
-                        class="navbar-toggle collapsed"
-                        data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1"
-                        aria-expanded="false"
-                    >
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar" />
-                        <span class="icon-bar" />
-                        <span class="icon-bar" />
-                    </button>
-
-              <Link to="/" class="navbar-brand our_logo" href="#"
-                ><img
+              
+              <Link to="/" class="navbar-brand our_logo" href="#"><img
                   src="./img/Logo foodzone.png"
                   alt=""
-                  class="tam-img"
-                /></Link
-              >
+                  class="tam-img" />
+              </Link>
             </div>
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right listado">
-                <li><Link to="/">Inicio</Link></li>
-                <li><Link to="/colaboradores">Colaboradores</Link></li>
-                <li><Link to="/nosotros">Nosotros</Link></li>
-                <li><Link to="/preguntas-frecuentes">Preguntas frecuentes</Link></li>
-                <li><Link to="/terminos-condiciones">Terminos y condiciones</Link></li>
-                <li><Link to="/contacto">Contacto</Link></li>
-              </ul>
-            </div>
+            <nav class="navbar navbar-expand-lg colorLetras">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-justify colorLetras"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <ul class="navbar-nav me-auto mb-2 mr-2 mb-lg-2 position-absolute top-0 end-0">
+                    <li class="nav-item">
+                      <Link to="/" class="nav-link active">Home</Link>
+                    </li>
+                    <li class="nav-item">
+                      <Link to="/colaboradores" class="nav-link active">Colaboradores</Link>
+                    </li>
+                    <li class="nav-item">
+                      <Link to="/nosotros" class="nav-link active">Nosotros</Link>
+                    </li>
+                    <li class="nav-item">
+                      <Link to="/preguntas-frecuentes" class="nav-link active">Preguntas </Link>
+                    </li>
+                    <li class="nav-item">
+                      <Link to="/terminos-condiciones" class="nav-link active">Terminos</Link>
+                    </li>
+                    <li class="nav-item">
+                      <Link to="/contacto" class="nav-link active">Contacto</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
           </div>
         </nav>
       </div>
@@ -50,7 +55,11 @@
     width: 40%;
     height: auto;
   }
-  .listado {
-    display: inline-block;
+  .colorLetras{
+    color: white;
   }
+  .main_menu_bg{
+    background-color: rgba(black, black, black, 0.5);
+  }
+  
 </style>
