@@ -2,17 +2,17 @@
 	import ContactUs from './views/ContactUs.svelte';
 	import FrequentQuestions from './views/FrequentQuestions.svelte';
 	import TermsAndConditions from './views/TermsAndConditions.svelte';
-  import { Router, Link, Route } from "svelte-routing";
-  import Header from "./modules/Header.svelte";
-  import Footer from "./modules/Footer.svelte";
-  import Home from "./views/Home.svelte";
-  import Partners from "./views/Partners.svelte";
-  import About from "./views/About.svelte";
-  import Pedir from "./views/Pedri.svelte"
-  import Noticias from "./views/Noticias.svelte"
-  import Questions from "./views/Questions.svelte";
-  import Conditions from "./views/Conditions.svelte";
-  import Contact from "./views/Contact.svelte";
+	import { Router, Link, Route } from "svelte-routing";
+	import Header from "./modules/Header.svelte";
+	import Footer from "./modules/Footer.svelte";
+	import Home from "./views/Home.svelte";
+	import Partners from "./views/Partners.svelte";
+	import About from "./views/About.svelte";
+	import Pedir from "./views/Pedir.svelte"
+	import Noticias from "./views/Noticias.svelte"
+	import Questions from "./views/Questions.svelte";
+	import Conditions from "./views/Conditions.svelte";
+	import Contact from "./views/Contact.svelte";
 </script>
 
 		

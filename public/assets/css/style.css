@@ -13,19 +13,40 @@ html,
 body {
     background-color: #1E2E3B;
     font-size: 18px;
-    color: #565656;
+    color: #5e5e5e;
     width: 100%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 300;
 }
 
 /*==========================================
 PRE LOADER 
 ==========================================*/
-
+h1, h2,h3, h4, h5, h6{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+h1{
+    font-size: 6rem;
+    color: #e03c36;
+}
+h2{
+    font-size: 5rem;
+    color: #000;
+}
+h3{
+    font-size: 4rem;
+    color: #000;
+}
+h4{
+    font-size: 3rem;
+    color: #e03c36;
+}
+h5{
+    font-size: 2rem;
+}
 .preloader {
     position: fixed;
     top: 0;
@@ -128,69 +149,9 @@ input[type="color"],
     background: rgba(245, 99, 99, 0.2);
 }
 .form-control:focus {
-    border-color: #d6962c;
+    border-color: #e03c36;
 }
-h1,
-h2,
-h3 {
-    font-family: 'roboto', sans-serif;
-    font-weight: 300;
-    margin: 0;
-}
-h4,
-h5 {
-    
-    font-weight: 300;
-    margin: 0;
-    line-height: 2rem;
-	font-family: 'Merienda One', cursive;
-    color: #D98014;
 
-}
-h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 300;
-}
-h2 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-    margin-bottom: .9rem;
-	text-transform:uppercase;
-	color:#4F5859;	
-}
-h3 {
-    font-weight: 300;
-    margin-bottom: .9rem;
-    font-size: 2.375rem;
-    line-height: 2.5rem;
-
-}
-h4 {
-    font-size:1.875rem;
-    line-height: 2.2rem;
-    margin-bottom: 1.1rem;
-	font-family: 'Merienda One', cursive;
-    color: #D98014;
-
-}
-h5 {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
-h6 {
-    font-size: 1rem;
-    margin-bottom: .9rem;
-}
-p {
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-}
-p:last-child {
-    margin-bottom: 0px;
-    font-family: 'Lato', sans-serif;
-}
 
 /*.home-wrap h1,*/
 .home-wrap h2,
@@ -199,7 +160,7 @@ p:last-child {
 .home-wrap h5,
 .home-wrap p {
     color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 .text {
     color: #333333;
@@ -249,7 +210,6 @@ section{
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
-    font-family: 'Lato', sans-serif;
 }
 .parallax-section {
     max-width: 100%;
@@ -374,8 +334,8 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #d6962c;
-    border-color: #d6962c;
+    background-color: #e03c36;
+    border-color: #e03c36;
 }
 .btn {
     margin-right: 15px;
@@ -413,7 +373,7 @@ button.btn-lg{
 
 }
 button.btn-lg:hover{
-	background:#d6962c;
+	background:#e03c36;
 	color:#fff;
 }
 
@@ -429,7 +389,7 @@ button.btn-lg:hover{
 }
 .btn-primary:active,
 .btn-primary:hover {
-    background: #d6962c;
+    background: #e03c36;
 }
 
 .btn-default {
@@ -451,9 +411,9 @@ button.btn-lg:hover{
     background-color: #ffffff;
 }
 .btn-primary {
-    background-color: #E7A331;
+    background-color:#e03c36;
     color: #ffffff;
-    border: 2px solid #E7A331;
+    border: 2px solid #e03c36;
     text-transform: uppercase;
 	border-radius:4px;
 }
@@ -462,11 +422,11 @@ button.btn-lg:hover{
     background-color: #ffffff;
 }
 .btn-primary:focus {
-    background-color: #d6962c;
-    border-color: #d6962c;
+    background-color: #e03c36;
+    border-color: #e03c36;
 }
 .btn-primary:hover {
-    border-color: #d6962c;
+    border-color: #e03c36;
     color: #fff;
 }
 /*
@@ -584,13 +544,13 @@ a.navbar-brand.our_logo{
 	display:inline-block;
 }
 .header_top_menu .call_us_text a i{
-	color:#e7a331;
+	color:#e03c36;
 	margin-right:10px;
 	font-size:18px;
 }
 
 .head_top_social a{
-    color: #e7a331;
+    color: #e03c36;
     padding: 5px;
     display: inline-block;
 }
@@ -634,12 +594,12 @@ a.navbar-brand.our_logo{
 .main_menu_bg li a.booking{
 	border: 1px solid #fff;
     border-radius: 4px;
-    color: #e7a331 !important;
+    color: #e03c36 !important;
     padding: 5px 10px;
     margin-top: 8px;
 }
 .main_menu_bg li a:hover.booking{
-    color: #da9b31 !important;
+    color: #e03c36 !important;
 }
 
 .main_menu_bg .navbar {
@@ -652,7 +612,7 @@ a.navbar-brand.our_logo{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #da9b31;
+	color: #e03c36;
 }
 
 /* slider section */
@@ -666,8 +626,8 @@ a.navbar-brand.our_logo{
 }
 .main_slider .main_slider_content h1{
 font-size: 6rem;
-font-family: 'Merienda One', cursive;
-color: #D98014;
+font-family: 'Barlow Condensed', sans-serif;
+color: #e03c36;
     line-height: 6rem;
     margin:0px 0px 60px 0px;
 }	
@@ -701,12 +661,7 @@ color: #D98014;
 	padding:120px 0px;
 	display:inline-block;
 }
-.single_abouts_text h4{
-	color:#000000;
-}
-.single_abouts_text h3{
-	color:#000000;	
-}
+
 
 
 /* Features section css */
@@ -749,12 +704,6 @@ color: #D98014;
 .portfolio_content{
 	padding-bottom:120px;
 	display:inline-block;
-}
-.portfolio .portfolio_content .head_title h3{
-	color:#000000;
-}
-.portfolio .portfolio_content .head_title h4{
-	color:#000000;
 }
 
 .head_title{
@@ -813,8 +762,8 @@ color: #D98014;
 	
 }
 .ourPakeg .main_pakeg_content .head_title h4{
-	color: #D98014;
-	font-family: 'Merienda One', cursive;
+	color: #e03c36;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-size:1.875rem;
 }
 
@@ -936,8 +885,8 @@ color: #D98014;
 
 .single_widget h3{
     font-size:1.875rem;
-    color: #D98014;
-	font-family: 'Merienda One', cursive;
+    color: #e03c36;
+	font-family: 'Libre Baskerville', serif;
 }
 .single_widget_info p{
 	margin-top:40px;
@@ -956,7 +905,7 @@ color: #D98014;
 }
 .footer_socail_icon a i{
 	font-size:25px;
-	color:#e7a331;
+	color:#e03c36;
 }
 
 
@@ -968,18 +917,7 @@ color: #D98014;
 .footer{
 	background:#000;
 }
-.footer .copyright p{
-	padding:25px;
-	color:#fff;
-}
-.footer .copyright p i{
-	padding:0px 10px;
-	color:#ff0000;
-}
-.footer .copyright p a{
-	padding:0px 10px;
-	color:green;
-}
+
 
 
 
@@ -1003,7 +941,7 @@ color: #D98014;
 }
 
 .scrollup:hover {
-	background: #e7a331;
+	background: #e03c36;
 	opacity: 1;
 }
 

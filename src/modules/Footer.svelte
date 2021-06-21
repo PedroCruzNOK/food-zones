@@ -8,7 +8,7 @@
         <div class="footer_widget_content text-center">
           <div class="col-md-3 in">
             <div class="single_widget wow fadeIn" data-wow-duration="2s">
-              <h3>Ubicacion</h3>
+              <h4>Ubicacion</h4>
   
               <div class="single_widget_info">
                 <p>
@@ -33,7 +33,7 @@
   
           <div class="col-md-3 in">
             <div class="single_widget wow fadeIn" data-wow-duration="4s">
-              <h3>Take it easy with location</h3>
+              <h4>Take it easy with location</h4>
   
               <div class="single_widget_info">
                 <p>
