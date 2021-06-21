@@ -142,14 +142,16 @@ input[type="color"],
 .uneditable-input {
     outline: none;
 }
-.form-control {
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    font-size: 16px;
-    max-width: 90%;
-    background: rgba(245, 99, 99, 0.2);
-}
-.form-control:focus {
-    border-color: #e03c36;
+
+
+
+h1,
+h2,
+h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+
 }
 
 
@@ -505,20 +507,7 @@ h1 span {
     font-weight: 400;
 }
 
-/*for placeholder changes*/
 
-/*input::-webkit-input-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-input::-moz-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-input:-ms-input-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}*/
 
 
 /* Header top menu css */
@@ -579,9 +568,7 @@ a.navbar-brand.our_logo{
 }
 
 .main_menu_bg{
-	background:rgba(0, 0, 0, .45);
-	height: 80px;
-	
+	background:rgba(0, 0, 0, 0);	
 }
 .navbar-default {
     background-color: transparent;

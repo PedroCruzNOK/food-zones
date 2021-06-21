@@ -1,4 +1,5 @@
 <script>
+
 	import ContactUs from './views/ContactUs.svelte';
 	import FrequentQuestions from './views/FrequentQuestions.svelte';
 	import TermsAndConditions from './views/TermsAndConditions.svelte';
@@ -13,44 +14,37 @@
 	import Questions from "./views/Questions.svelte";
 	import Conditions from "./views/Conditions.svelte";
 	import Contact from "./views/Contact.svelte";
+
 </script>
 
-		
-		<Router>
-			<Header></Header>
-			<Route path="/">
-				<Home />		
-			</Route>
-			<Route path="/colaboradores">
-				<Partners />	
-			</Route>
-			<Route path="/nosotros">
-				<About />	
-			</Route>
-			<Route path="/preguntas-frecuentes">
-				<FrequentQuestions />	
-			</Route>
-			<Route path="/pedri">
-				<FrequentQuestions />	
-			</Route>
-			<Route path="/noticias">
-				<FrequentQuestions />	
-			</Route>
-			<Route path="/terminos-condiciones">
-				<TermsAndConditions />	
-			</Route>
-			<Route path="/contacto">
-				<ContactUs />	
-			</Route>
-			<Footer></Footer>
-		</Router>
+<Router>
+  <Header />
+  <Route path="/">
+    <Home />
+  </Route>
+  <Route path="/colaboradores">
+    <Partners />
+  </Route>
+  <Route path="/nosotros">
+    <About />
+  </Route>
+  <Route path="/preguntas-frecuentes">
+    <FrequentQuestions />
+  </Route>
+  <Route path="/Pedir">
+    <FrequentQuestions />
+  </Route>
+  <Route path="/noticias">
+    <Noticias />
+  </Route>
+  <Route path="/terminos-condiciones">
+    <TermsAndConditions />
+  </Route>
+  <Route path="/contacto">
+    <ContactUs />
+  </Route>
+  <Footer />
+</Router>
 
-
-
-
-<style >
-
-
-
+<style>
 </style>
-
