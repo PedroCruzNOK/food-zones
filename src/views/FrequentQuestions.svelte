@@ -1,11 +1,15 @@
 <script>
-  const showHide = (element) => {
-    let id = element.srcElement.parentNode.parentNode.lastChild.id;
-   console.log(id)
-  };
+
 </script>
 
+
+
+
 <div class="row margin-t">
+
+
+
+  
   <main>
     <div class="position-relative overflow-hidden  bg-light">
       <div class="col-md-12">
@@ -28,7 +32,7 @@
                     data-bs-target="#panelsStayOpen-collapseOne"
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseOne"
-                    on:click={(event) => showHide(event)}
+                   
                   >
                     1. ¿La app es compatible en Android?
                   </button>
