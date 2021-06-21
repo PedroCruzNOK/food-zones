@@ -1,4 +1,5 @@
 <script>
+	import { Link } from 'svelte-routing';
 </script>
 
 <div class="row ">
@@ -64,6 +65,8 @@
 
                     <div class="col-auto">
                         <button type="button" class="btn btn-primary">Enviar Registro</button>
+                        <Link to="/colaboradores" class="btn btn-secondary me-md-2" type="button">Regresar</Link>
+
                     </div>
       
                   </div>
