@@ -7,10 +7,19 @@
             <div class="col-md-12">
                 <div class="row justify-content-center">
                     <div class="col-8">
-                        <div class="row">
-                            <h4 class="display-3 fw-normal wow animated rubberBand ">
-                                Contactanos
-                            </h4>
+                        <div class="row py-5">
+                            <h4
+                            class="wow animated rubberBand text-center"
+                            id=""
+                          >
+                            Si tienes alguna duda escribenos por correo
+                          </h4>
+                          <h3
+                            class="wow animated rubberBand text-center py-3"
+                            id=""
+                          >
+                          Contactanos
+                          </h3>
 
                             <form action="" autocomplete="off">
 
