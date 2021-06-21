@@ -612,9 +612,7 @@ a.navbar-brand.our_logo{
 }
 
 .main_menu_bg{
-	background:rgba(0, 0, 0, .45);
-	height: 80px;
-	
+	background:rgba(0, 0, 0, 0);	
 }
 .navbar-default {
     background-color: transparent;

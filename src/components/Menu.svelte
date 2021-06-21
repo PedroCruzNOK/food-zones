@@ -8,7 +8,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       
           <div class="navbar-header">
-            <Link to="/" class="navbar-brand our_logo" 
+            <Link to="/" class="navbar-brand " 
               ><img src="./img/Logo foodzone.png" alt="" class="tam-img" />
             </Link>
           </div>
@@ -68,7 +68,7 @@
 
 <style>
   .tam-img {
-    width: 30%;
+    width: 10%;
     height: auto;
   }
 
