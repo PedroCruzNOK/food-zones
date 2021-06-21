@@ -6,13 +6,19 @@
     <div class="position-relative overflow-hidden  bg-light">
       <div class="col-md-12">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-8 py-5">
             <h4
-              class="display-3 fw-normal wow animated rubberBand "
-              id="teminos-condiciones"
+              class="wow animated rubberBand text-center"
+              id=""
             >
               Noticias
             </h4>
+            <h3
+              class="wow animated rubberBand text-center"
+              id=""
+            >
+              Te mostramos la informacion mas actual
+            </h3>
             <div
               class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
             >
