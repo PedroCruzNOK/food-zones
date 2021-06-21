@@ -121,15 +121,8 @@ input[type="color"],
 .uneditable-input {
     outline: none;
 }
-.form-control {
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    font-size: 16px;
-    max-width: 90%;
-    background: rgba(245, 99, 99, 0.2);
-}
-.form-control:focus {
-    border-color: #d6962c;
-}
+
+
 h1,
 h2,
 h3 {
