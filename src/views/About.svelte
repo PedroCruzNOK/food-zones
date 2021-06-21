@@ -2,22 +2,27 @@
 </script>
 
 <div class="row">
+  
   <main>
     <div class="position-relative overflow-hidden  bg-light ">
       <div class="col-md-12">
         <div class="row justify-content-center">
           <div class="col-8">
-            <div class="row">
-              <h4 class="display-3 fw-normal wow animated rubberBand py-5">
+            <div class="row py-5">
+              
+              <h4 class=" wow animated rubberBand  text-center">
                 Nosotros
               </h4>
-
+              <h3 class=" wow animated rubberBand  text-center py-3">
+                  Quienes somos y que hacemos
+              </h3>
+            
               <img
                 src="./img/FZ 1.png"
-                class="igure-img img-fluid rounded wow zoomIn animated py-5"
+                class="igure-img img-fluid rounded wow zoomIn animated py-3"
                 alt="..."
               />
-              <p class=" h3 wow rotateInDownRight animated py-5">
+              <p class=" wow rotateInDownRight animated">
                 FOOD ZONE, es un software con acceso vía Web, y APP’s de iOS y
                 Android para facilitar la interacción entre usuarios y los
                 establecimientos de la Industria de Alimentos y Bebidas, la
@@ -25,12 +30,12 @@
                 Entretenimiento.
               </p>
 
-              <p class="h3 wow rotateInDownRight animated py-3">
+              <p class=" wow rotateInDownRight animated">
                 Permite al usuario tener una interacción cómoda, segura y
                 completa para su experiencia con restaurantes y lugares de
                 entretenimiento.
               </p>
-              <p class="h3 wow rotateInDownRight animated py-3">
+              <p class=" wow rotateInDownRight animated">
                 La plataforma permite hacer pagos con tarjeta de crédito o
                 débito, así como por medio de crédito que se podrá abonar en
                 efectivo al adquirir monederos electrónicos en los distintos
@@ -38,25 +43,25 @@
               </p>
             </div>
 
-            <div class="row my-5">
+            <div class="row py-3">
               <div class="col-sm-12 col-md-6 wow rotateInDownRight animated">
                 <h4 class="py-5">Visión</h4>
-                <p class="h3">
+                <p class="">
                   Posicionarnos como el software enfocado en Alimentos y Bebidas
                   más utilizado en el mercado de México y Estados Unidos.
                 </p>
               </div>
-              <div class="col-sm-12 col-md-6 wow rotateInUpLeft animated">
+              <div class="col-sm-12 col-md-6 wow rotateInUpLeft animated ">
                 <h4 class="py-5">Misión</h4>
-                <p class="h3">
+                <p class="">
                   Brindar el mejor servicio a cada uno de nuestros clientes
                   facilitándoles el proceso de compra en establecimientos del
                   sector de Alimentos y Bebidas.
                 </p>
               </div>
 
-              <h4 class="text-center py-5">Nuestroos valores Valores</h4>
-              <div class="row py-5">
+              <h4 class="text-center py-3">Nuestroos valores Valores</h4>
+              <div class="row">
                 <div class="col wow zoomInDown animated">
                   <div class="card h-100">
                     <img
@@ -143,7 +148,7 @@
                   <img src="https://sites.google.com/site/portmari04/_/rsrc/1481203045409/tarea-3-cartel-la-empresa-desde-el-punto-de-vista-juridico/Existen-distintos-tipos-de-empresas.png" alt="">
                 </div>
                 <div class="col-sm-12 col-md-8 wow rotateInUpLeft animated">
-                  <p class="h3 py-5">
+                  <p class=" py-5">
                     Nuestra empresa surge en 2021 de la necesidad de facilitar y
                     agilizar el servicio de alimentos y bebidas en foodcourts,
                     restaurantes y otros establecimientos. Brindamos la opción de
