@@ -22,35 +22,7 @@
   <Route path="/">
     <Home />
   </Route>
-<<<<<<< HEAD
- 
-	<Route path="/colaboradores">
-		
-		<Partners />
-		
-	  </Route>
-	  <Route path="/nosotros">
-		<About />
-	  </Route>
-	  <Route path="/preguntas-frecuentes">
-		<FrequentQuestions />
-	  </Route>
-	  <Route path="/pedir">
-		<Pedir />
-	  </Route>
-	  <Route path="/noticias">
-		<Noticias />
-	  </Route>
-	  <Route path="/terminos-condiciones">
-		<TermsAndConditions />
-	  </Route>
-	  <Route path="/contacto">
-		<ContactUs />
-	  </Route>
 
- 
-  
-=======
   <Route path="/colaboradores">
     <Partners />
   </Route>
@@ -81,7 +53,7 @@
     <DeliveryMan />
   </Route>
 
->>>>>>> 2f5a15fdd29f944bb97b80ba2bd863c9b958f80d
+
   <Footer />
 </Router>
 
