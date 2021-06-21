@@ -2,17 +2,10 @@
   import { Router, Link, Route } from "svelte-routing";
 </script>
 
-<div class="main_menu_bg">
-  <div class="container">
-    <div class="row ">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-      
-          <div class="navbar-header">
-            <Link to="/" class="navbar-brand " 
-              ><img src="./img/Logo foodzone.png" alt="" class="tam-img" />
-            </Link>
-          </div>
+<div class="main_menu_bg ">
 
+    <div class="row main-menu">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -25,37 +18,41 @@
             >
               <span class="navbar-toggler-icon" />
             </button>
+            <img src="./img/Logo foodzone.png" alt="" class="imagen-logo">
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <ul class="navbar-nav px-0">
+              <ul class="navbar-nav px-0 ">
                 <li class="nav-item">
-                  <Link to="/" class="nav-link active">Home</Link>
+                  <Link to="/" class="nav-link active activo">Home</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/colaboradores" class="nav-link active"
+                  <Link to="/colaboradores" class="nav-link active activo"
                     >Colaboradores</Link
                   >
                 </li>
                 <li class="nav-item">
-                  <Link to="/nosotros" class="nav-link active">Nosotros</Link>
+                  <Link to="/nosotros" class="nav-link active activo">Nosotros</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/pedir" class="nav-link active">Pedido</Link>
+                  <Link to="/pedir" class="nav-link active activo">Pedido</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/noticias" class="nav-link active">Noticias</Link>
+                  <Link to="/noticias" class="nav-link active activo">Noticias</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/preguntas-frecuentes" class="nav-link active"
+                  <Link to="/preguntas-frecuentes" class="nav-link active activo"
                     >Preguntas
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/terminos-condiciones" class="nav-link active"
+                  <Link to="/terminos-condiciones" class="nav-link active activo"
                     >Terminos</Link
                   >
                 </li>
                 <li class="nav-item">
-                  <Link to="/contacto" class="nav-link active">Contacto</Link>
+                  <Link to="/contacto" class="nav-link active activo">Contacto</Link>
+                </li>
+                <li class="nav-item">
+                  <Link to="/" class="nav-link active activo"><i class="fa fa-phone " /> 775 96 8540</Link>
                 </li>
               </ul>
             </div>
@@ -63,20 +60,37 @@
         
       </nav>
     </div>
-  </div>
 </div>
 
 <style>
-  .tam-img {
-    width: 10%;
-    height: auto;
+  .main-menu{
+    margin-left: 10%;
+    margin-right: 10%;;
   }
-
-  .colorLetras {
-    color: white;
-  }
-
+ .imagen-logo{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  z-index: 100000000;
+  margin-top: 6%;
+ }
+ .navbar-nav{
+   margin-left: 30%;
+ }
+ .navbar-nav:hover{
+   color: black;
+ }
+ .navbar-toggler{
+   margin-left: 20%;
+   color: white;
+ }
   .main_menu_bg {
     background-color: rgba(black, black, black, 0.5);
   }
+  .navbar-toggler-icon{
+    color:white;
+    z-index: 11111111111110000000000000;
+  }
+
+
 </style>

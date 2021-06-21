@@ -5,7 +5,7 @@
 
 
 
-<div class="row margin-t">
+<div class="row">
 
 
 
@@ -156,7 +156,5 @@
 </div>
 
 <style>
-  .margin-t {
-    margin-top: 100px;
-  }
+
 </style>

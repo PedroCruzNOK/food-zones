@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="row margin-t">
+<div class="row">
     <main>
         <div class="position-relative overflow-hidden  bg-light ">
             <div class="col-md-12">
@@ -41,7 +41,5 @@
 </div>
 
 <style>
-.margin-t {
-    margin-top: 100px;
-}
+
 </style>

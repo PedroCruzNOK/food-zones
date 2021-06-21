@@ -33,18 +33,43 @@
   
           <div class="col-md-3 in">
             <div class="single_widget wow fadeIn" data-wow-duration="4s">
-              <h4>Take it easy with location</h4>
-  
-              <div class="single_widget_info">
-                <p>
-                  <span class="date_day">Monday To Friday</span>
-                  <span>8:00am to 10:00pm(Breakfast)</span>
-                  <span>11:00am to 10:00pm(Lunch/Diner)</span>
-  
-                  <span class="date_day">Saturday & Sunday</span>
-                  <span>10:00am to 11:00pm(Brunch)</span>
-                  <span>11:00am to 12:00pm(Lunch/Dinner)</span>
-                </p>
+              <h4>Mas sobre nosotros</h4>
+              <br><br>
+              <div class="">
+                <ul class="">
+                  <li class="">
+                    <Link to="/" class=" activo">Home</Link>
+                  </li>
+                  <li class="">
+                    <Link to="/colaboradores" class=" activo"
+                      >Colaboradores</Link
+                    >
+                  </li>
+                  <li class="">
+                    <Link to="/nosotros" class="activo">Nosotros</Link>
+                  </li>
+
+                  <li class="">
+                    <Link to="/pedir" class=" activo">Pedido</Link>
+                  </li>
+                  <br>
+                  <li class="">
+                    <Link to="/noticias" class=" activo">Noticias</Link>
+                  </li>
+                  <li class="">
+                    <Link to="/preguntas-frecuentes" class=" activo"
+                      >Preguntas
+                    </Link>
+                  </li>
+                  <li class="">
+                    <Link to="/terminos-condiciones" class=" activo"
+                      >Terminos</Link
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/contacto" class="activo">Contacto</Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -55,8 +80,10 @@
   <div class="scrollup">
     <Link to="/"><i class="fa fa-chevron-up" /></Link>
   </div>
+
   <style>
     .in{
       display: inline-block;
     }
+
   </style>
