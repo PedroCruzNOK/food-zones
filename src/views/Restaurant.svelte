@@ -7,14 +7,19 @@
     <div class="position-relative overflow-hidden  bg-light pb-5">
       <div class="col-md-12">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-8 py-5">
             <h4
-              class="display-3 fw-normal wow animated rubberBand"
-              data-animation="flash"
-            >
-              ¿Cuentas con un Establecimiento y te interesa trabajar con
-              nosotros?
-            </h4>
+            class="wow animated rubberBand text-center"
+            id=""
+          >
+            Cuentas con un establecimiento y te interesa trabajar con nosotros?
+          </h4>
+          <h3
+            class="wow animated rubberBand text-center py-3"
+            id=""
+          >
+          Contactanos
+          </h3>
             <p>
               Llena el siguiente formulario y te contactaremos lo más pronto
               posible

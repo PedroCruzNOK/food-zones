@@ -14,13 +14,19 @@
     <div class="position-relative overflow-hidden  bg-light">
       <div class="col-md-12">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-8 py-5">
             <h4
-              class="display-3 fw-normal wow animated rubberBand py-5"
-              data-animation="flash"
+              class="wow animated rubberBand text-center"
+              id=""
             >
-              Preguntas Frecuentes
+              Preguntanos
             </h4>
+            <h3
+              class="wow animated rubberBand text-center py-3"
+              id=""
+            >
+              Nosotros te ayudamos
+            </h3>
 
             <div class="accordion pb-5" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">

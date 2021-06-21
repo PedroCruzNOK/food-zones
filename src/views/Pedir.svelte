@@ -6,13 +6,19 @@
     <div class="position-relative overflow-hidden  bg-light pb-5" >
       <div class="col-md-12">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-8 py-5">
             <h4
-              class="display-3 fw-normal wow animated rubberBand py-5"
+              class="text-center wow animated rubberBand "
               data-animation="flash"
             >
-              Proceso de realizar pedido
+              Realiza tu pedido ahora!
             </h4>
+            <h3
+              class="text-center wow animated rubberBand py-3"
+              data-animation="flash"
+            >
+              Proceso para realizar un pedido
+            </h3>
 
             <div
               class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"

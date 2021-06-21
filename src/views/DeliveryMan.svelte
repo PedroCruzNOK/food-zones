@@ -2,18 +2,24 @@
 	import { Link } from 'svelte-routing';
 </script>
 
-<div class="row ">
+<section class="portfolio " id="portfolio">
   <main>
     <div class="position-relative overflow-hidden  bg-light pb-5">
       <div class="col-md-12">
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-8 py-5">
             <h4
-              class="display-3 fw-normal wow animated rubberBand"
-              data-animation="flash"
-            >
-              ¿Quieres ser Repartidor?
-            </h4>
+            class="wow animated rubberBand text-center"
+            id=""
+          >
+            Quieres ser repartidor?
+          </h4>
+          <h3
+            class="wow animated rubberBand text-center py-3"
+            id=""
+          >
+          Contactanos si te interesa formar parte de nuestro equipo
+          </h3>
             <p>
               Llena el siguiente formulario y te contactaremos lo más pronto
               posible
@@ -83,7 +89,7 @@
       </div>
     </div>
   </main>
-</div>
+</section>
 
 <style>
 </style>
