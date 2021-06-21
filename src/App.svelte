@@ -31,8 +31,8 @@
   <Route path="/preguntas-frecuentes">
     <FrequentQuestions />
   </Route>
-  <Route path="/Pedir">
-    <FrequentQuestions />
+  <Route path="/pedir">
+    <Pedir />
   </Route>
   <Route path="/noticias">
     <Noticias />
