@@ -416,7 +416,6 @@ button.btn-lg:hover{
     background-color:#e03c36;
     color: #ffffff;
     border: 2px solid #e03c36;
-    text-transform: uppercase;
 	border-radius:4px;
 }
 .btn-primary:before,
