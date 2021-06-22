@@ -1,4 +1,4 @@
-<section id="slider" class="slider">
+<section id="slider" class="slider px-0">
     <div class="slider_overlay">
       <div class="container">
         <div class="row">

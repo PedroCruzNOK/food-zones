@@ -2,8 +2,8 @@
 <script>
     import { Router, Link, Route } from "svelte-routing";
 </script>
-<section id="footer_widget" class="footer_widget">
-    <div class="container-fluid">
+<section id="footer_widget" class="footer_widget px-0">
+    <div class="">
       <div class="row">
         <div class="footer_widget_content text-center">
           <div class="col-md-3 in">

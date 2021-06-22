@@ -1,8 +1,8 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
 </script>
-<section id="mobaileapps" class="mobailapps">
-    <div class="slider_overlay">
+<section id="mobaileapps" class="mobailapps px-0">
+    <div class="slider_overlay ">
       <div class="container">
         <div class="row">
           <div class="main_mobail_apps_content wow zoomIn ">
