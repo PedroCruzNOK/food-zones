@@ -77,8 +77,9 @@
       </div>
     </div>
   </section>
+  
   <div class="scrollup">
-    <Link to="/"><i class="fa fa-chevron-up" /></Link>
+    <Link to="/terminos-condiciones"><i class="bi bi-info-lg"></i></Link>
   </div>
 
   <style>
