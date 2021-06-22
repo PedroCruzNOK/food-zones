@@ -15,7 +15,7 @@
   import Restaurant from "./views/Restaurant.svelte";
   import DeliveryMan from "./views/DeliveryMan.svelte";
 </script>
-<div class="container-fluid px-0">
+<div class="container-fluid">
   <Router>
     <Header />
     <Route path="/">
