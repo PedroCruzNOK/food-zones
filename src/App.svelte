@@ -43,7 +43,6 @@
     <Route path="/contacto">
       <ContactUs />
     </Route>
-  
     <Route path="/restaurante">
       <Restaurant />
     </Route>
