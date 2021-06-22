@@ -29,6 +29,10 @@ body {
     color: white;
     
   }
+main{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 /*==========================================
 PRE LOADER 
 ==========================================*/

@@ -15,46 +15,48 @@
   import Restaurant from "./views/Restaurant.svelte";
   import DeliveryMan from "./views/DeliveryMan.svelte";
 </script>
+<div class="container-fluid px-0">
+  <Router>
+    <Header />
+    <Route path="/">
+      <Home />
+    </Route>
+  
+    <Route path="/colaboradores">
+      <Partners />
+    </Route>
+    <Route path="/nosotros">
+      <About />
+    </Route>
+    <Route path="/preguntas-frecuentes">
+      <FrequentQuestions />
+    </Route>
+    <Route path="/pedir">
+      <Pedir />
+    </Route>
+    <Route path="/noticias">
+      <Noticias />
+    </Route>
+    <Route path="/terminos-condiciones">
+      <TermsAndConditions />
+    </Route>
+    <Route path="/contacto">
+      <ContactUs />
+    </Route>
+  
+    <Route path="/restaurante">
+      <Restaurant />
+    </Route>
+  
+    <Route path="/repartidor">
+      <DeliveryMan />
+    </Route>
+  
+  
+    <Footer />
+  </Router>
+</div>
 
-<Router>
-  <Header />
-  <Route path="/">
-    <Home />
-  </Route>
-
-  <Route path="/colaboradores">
-    <Partners />
-  </Route>
-  <Route path="/nosotros">
-    <About />
-  </Route>
-  <Route path="/preguntas-frecuentes">
-    <FrequentQuestions />
-  </Route>
-  <Route path="/pedir">
-    <Pedir />
-  </Route>
-  <Route path="/noticias">
-    <Noticias />
-  </Route>
-  <Route path="/terminos-condiciones">
-    <TermsAndConditions />
-  </Route>
-  <Route path="/contacto">
-    <ContactUs />
-  </Route>
-
-  <Route path="/restaurante">
-    <Restaurant />
-  </Route>
-
-  <Route path="/repartidor">
-    <DeliveryMan />
-  </Route>
-
-
-  <Footer />
-</Router>
 
 <style>
 </style>
