@@ -26,84 +26,84 @@
 
           <div class="main_portfolio_content">
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p1.png" alt="" />
+              <img src="img/res1.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+              
+              <h5>La Noria</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p2.png" alt="" />
+              <img src="img/res2.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+             
+              <h5>La corregidora</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p3.png" alt="" />
+              <img src="img/res3.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+            
+              <h5>La casona</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p4.png" alt="" />
+              <img src="img/res4.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+             
+              <h5>Pizza and food</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p5.png" alt="" />
+              <img src="img/res5.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+              
+              <h5>Barcleys</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p6.png" alt="" />
+              <img src="img/res6.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+              
+              <h5>Restaurantes palacios</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p7.png" alt="" />
+              <img src="img/res7.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+              
+              <h5>hermenejildo galeana</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="assets/images/p8.png" alt="" />
+              <img src="img/res8.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              <p>Descripcion de un colaborador</p>
-              <h5>juan</h5>
+              
+              <h5>paseo bravo</h5>
             </div>
 
 
