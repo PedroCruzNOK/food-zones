@@ -14,7 +14,7 @@
               <div class="single_widget_info">
                 <p>
                   <i class="bi bi-house"></i>  La Paz, Puebla, México, 72160. 
-                  <span ><i class="bi bi-telephone"></i>  Teléfono: (222) 620 0600</span>
+                  <a href="tel:222 620 0600"><span ><i class="bi bi-telephone"></i>  Teléfono: (222) 620 0600</span></a>
                   <span><i class="bi bi-envelope"></i>  Email: contacto@foodzone.com</span>
                 </p>
               </div>
@@ -87,6 +87,9 @@
     }
     .single_widget_info{
       color: white;
+    }
+    a{
+      color:white;
     }
     .redIcon{
       width: 35px;
