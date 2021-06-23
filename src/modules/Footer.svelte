@@ -20,10 +20,10 @@
               </div>
   
               <div class="footer_socail_icon">
-                <a href="google.com"><img src="img/facebook.png" alt="" class="redIcon"></a>
-                <a href="google.com"><img src="img/instagram.png" alt="" class="redIcon"></a>
-                <a href="google.com"><img src="img/gorjeo.png" alt="" class="redIcon"></a>
-                <a href="google.com"><img src="img/linkedin.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="./img/facebook.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="./img/instagram.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="./img/gorjeo.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="./img/linkedin.png" alt="" class="redIcon"></a>
                 
                
               </div>
@@ -40,33 +40,33 @@
                     <Link to="/" class=" activo">Home</Link>
                   </li>
                   <li class="">
-                    <Link to="/colaboradores" class=" activo"
+                    <Link to="colaboradores" class=" activo"
                       >Colaboradores</Link
                     >
                   </li>
                   <li class="">
-                    <Link to="/nosotros" class="activo">Nosotros</Link>
+                    <Link to="nosotros" class="activo">Nosotros</Link>
                   </li>
 
                   <li class="">
-                    <Link to="/pedir" class=" activo">Pedido</Link>
+                    <Link to="pedir" class=" activo">Pedido</Link>
                   </li>
                  
                   <li class="">
-                    <Link to="/noticias" class=" activo">Noticias</Link>
+                    <Link to="noticias" class=" activo">Noticias</Link>
                   </li>
                   <li class="">
-                    <Link to="/preguntas-frecuentes" class=" activo"
+                    <Link to="preguntas-frecuentes" class=" activo"
                       >Preguntas
                     </Link>
                   </li>
                   <li class="">
-                    <Link to="/terminos-condiciones" class=" activo"
+                    <Link to="terminos-condiciones" class=" activo"
                       >Terminos</Link
                     >
                   </li>
                   <li class="nav-item">
-                    <Link to="/contacto" class="activo">Contacto</Link>
+                    <Link to="contacto" class="activo">Contacto</Link>
                   </li>
                 </ul>
               </div>

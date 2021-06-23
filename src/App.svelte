@@ -23,32 +23,32 @@
       <Home />
     </Route>
 
-    <Route path="colaboradores/">
+    <Route path="food-zone/colaboradores/">
       <Partners />
     </Route>
-    <Route path="nosotros/">
+    <Route path="food-zone/nosotros/">
       <About />
     </Route>
-    <Route path="preguntas-frecuentes/">
+    <Route path="food-zone/preguntas-frecuentes/">
       <FrequentQuestions />
     </Route>
-    <Route path="pedir/">
+    <Route path="food-zone/pedir/">
       <Pedir />
     </Route>
-    <Route path="noticias/">
+    <Route path="food-zone/noticias/">
       <Noticias />
     </Route>
-    <Route path="terminos-condiciones/">
+    <Route path="food-zone/terminos-condiciones/">
       <TermsAndConditions />
     </Route>
-    <Route path="contacto/">
+    <Route path="food-zone/contacto/">
       <ContactUs />
     </Route>
-    <Route path="restaurante/">
+    <Route path="food-zone/restaurante/">
       <Restaurant />
     </Route>
 
-    <Route path="repartidor/">
+    <Route path="food-zone/repartidor/">
       <DeliveryMan />
     </Route>
 

@@ -17,8 +17,8 @@
                   Mobile App <span>Disponible en la PlayStore</span>
                 </h1>
   
-                <Link to="/"><img src="assets/images/google.png" alt="" /></Link>
-                <Link to ="/"><img src="assets/images/apps.png" alt="" /></Link>
+                <Link to="/"><img src="./assets/images/google.png" alt="" /></Link>
+                <Link to ="/"><img src="./assets/images/apps.png" alt="" /></Link>
               </div>
             </div>
           </div>
