@@ -18,7 +18,7 @@
               </h3>
             
               <img
-                src="./img/FZ 1.png"
+                src="./img/FZ1.png"
                 class="igure-img img-fluid rounded wow zoomIn animated py-3"
                 alt="..."
               />

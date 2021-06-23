@@ -1,5 +1,6 @@
+
 <section id="slider" class="slider px-0">
-    <div class="slider_overlay">
+    <div class="slider_overlay2">
       <div class="container">
         <div class="row">
           <div class="main_slider text-center">
