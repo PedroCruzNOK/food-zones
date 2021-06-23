@@ -8,7 +8,7 @@
               class="single_abouts_text text-center wow slideInLeft"
               data-wow-duration="1s"
             >
-              <img src="assets/images/beneficios1.png" alt="" />
+              <img src="./assets/images/beneficios1.png" alt="" />
             </div>
           </div>
   

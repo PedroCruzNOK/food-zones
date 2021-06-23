@@ -26,7 +26,7 @@
 
           <div class="main_portfolio_content">
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="img/res1.jpg" alt="" />
+              <img src="./img/res1.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
@@ -36,7 +36,7 @@
               <h5>La Noria</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="img/res2.jpg" alt="" />
+              <img src="./img/res2.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>
@@ -66,7 +66,7 @@
               <h5>Pizza and food</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-              <img src="img/res5.jpg" alt="" />
+              <img src="./img/res5.jpg" alt="" />
               <div class="portfolio_images_overlay text-center">
                 <h6>Italian Source Mushroom</h6>
                 <p class="product_price">$12</p>

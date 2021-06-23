@@ -22,36 +22,38 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <ul class="navbar-nav px-0 ">
                 <li class="nav-item">
-                  <Link to="/" class="nav-link active activo">Home</Link>
+                  <Link to="food-zone/" class="nav-link active activo">Home</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/colaboradores" class="nav-link active activo"
+                  <Link to="food-zone/colaboradores" class="nav-link active activo"
                     >Colaboradores</Link
                   >
                 </li>
                 <li class="nav-item">
-                  <Link to="/nosotros" class="nav-link active activo">Nosotros</Link>
+                  <Link to="food-zone/nosotros" class="nav-link active activo">Nosotros</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/pedir" class="nav-link active activo">Pedido</Link>
+                  <Link to="food-zone/pedir" class="nav-link active activo">Pedido</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/noticias" class="nav-link active activo">Noticias</Link>
+                  <Link to="food-zone/noticias" class="nav-link active activo">Noticias</Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/preguntas-frecuentes" class="nav-link active activo"
+                  <Link to="food-zone/preguntas-frecuentes" class="nav-link active activo"
                     >Preguntas
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/terminos-condiciones" class="nav-link active activo"
-                    >Términos</Link
+                  <Link to="food-zone/terminos-condiciones" class="nav-link active activo"
+                    >Terminos</Link
                   >
                 </li>
                 <li class="nav-item">
-                  <Link to="/contacto" class="nav-link active activo">Contacto</Link>
+                  <Link to="food-zone/contacto" class="nav-link active activo">Contacto</Link>
                 </li>
-                
+                <li class="nav-item">
+                  <Link to="food-zone/" class="nav-link active activo"><i class="fa fa-phone " /> 775 96 8540</Link>
+                </li>
               </ul>
             </div>
           </div>
