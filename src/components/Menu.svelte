@@ -51,9 +51,7 @@
                 <li class="nav-item">
                   <Link to="food-zone/contacto" class="nav-link active activo">Contacto</Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="food-zone/" class="nav-link active activo"><i class="fa fa-phone " /> 775 96 8540</Link>
-                </li>
+      
               </ul>
             </div>
           </div>

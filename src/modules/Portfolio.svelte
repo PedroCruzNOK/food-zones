@@ -19,8 +19,8 @@
 
 
           <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3">
-            <Link to="/restaurante" class="btn btn-primary me-md-2" type="button">Restaurante</Link>
-            <Link to="/repartidor" class="btn btn-primary me-md-2" type="button">Repartidor</Link>
+            <Link to="food-zone/restaurante" class="btn btn-primary me-md-2" type="button">Restaurante</Link>
+            <Link to="food-zone/repartidor" class="btn btn-primary me-md-2" type="button">Repartidor</Link>
            
           </div>
 
