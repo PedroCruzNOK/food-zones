@@ -14,48 +14,48 @@
   import Conditions from "./views/Conditions.svelte";
   import Restaurant from "./views/Restaurant.svelte";
   import DeliveryMan from "./views/DeliveryMan.svelte";
+
 </script>
+
 <div class="container-fluid">
-  <Router>
+  <Router >
     <Header />
-    <Route path="/">
+    <Route path="food-zone/">
       <Home />
     </Route>
-  
-    <Route path="/colaboradores">
+
+    <Route path="colaboradores/">
       <Partners />
     </Route>
-    <Route path="/nosotros">
+    <Route path="nosotros/">
       <About />
     </Route>
-    <Route path="/preguntas-frecuentes">
+    <Route path="preguntas-frecuentes/">
       <FrequentQuestions />
     </Route>
-    <Route path="/pedir">
+    <Route path="pedir/">
       <Pedir />
     </Route>
-    <Route path="/noticias">
+    <Route path="noticias/">
       <Noticias />
     </Route>
-    <Route path="/terminos-condiciones">
+    <Route path="terminos-condiciones/">
       <TermsAndConditions />
     </Route>
-    <Route path="/contacto">
+    <Route path="contacto/">
       <ContactUs />
     </Route>
-    <Route path="/restaurante">
+    <Route path="restaurante/">
       <Restaurant />
     </Route>
-  
-    <Route path="/repartidor">
+
+    <Route path="repartidor/">
       <DeliveryMan />
     </Route>
-  
-  
+
     <Footer />
   </Router>
 </div>
-
 
 <style>
 </style>
