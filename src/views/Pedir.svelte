@@ -21,7 +21,7 @@
               <div class="col">
                 <div class="card">
                   <img
-                    src="./img/FZ 2.png"
+                    src="./img/FZ2.png"
                     class="mx-auto"
                     alt="..."
                     style="width: 40%;"
@@ -36,7 +36,7 @@
 
               <div class="col">
                 <div class="card">
-                  <img src="./img/FZ 4.png" class="card-img-top center-img" alt="..." />
+                  <img src="./img/FZ4.png" class="card-img-top center-img" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title text-center">
                       Escaneé el código QR de tu mesa
