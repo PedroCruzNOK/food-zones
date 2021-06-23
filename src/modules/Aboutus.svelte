@@ -18,19 +18,15 @@
               data-wow-duration="1s"
             >
               <h4>Acerca de nosotros</h4>
-              <h3>Que te ofrecemos</h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's stan
-              </p>
+              <h3>¿Qué te ofrecemos?</h3>
+              
   
               <p>
                 Permite al usuario tener una interacción cómoda, segura y completa para su experiencia con restaurantes y lugares de entretenimiento. 
-La plataforma permite hacer pagos con tarjeta de crédito o débito, así como por medio de crédito que se podrá abonar en efectivo al adquirir monederos electrónicos en los distintos puntos de venta. 
+                La plataforma permite hacer pagos con tarjeta de crédito o débito, así como por medio de crédito que se podrá abonar en efectivo al adquirir monederos electrónicos en los distintos puntos de venta. 
 
               </p>
   
-              <a class="btn btn-primary">click here</a>
             </div>
           </div>
         </div>

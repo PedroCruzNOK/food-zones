@@ -1,7 +1,8 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
 </script>
-<section id="mobaileapps" class="mobailapps px-0">
+
+<section id="slider2" class="slider2 px-0">
     <div class="slider_overlay ">
       <div class="container">
         <div class="row">
@@ -11,7 +12,7 @@
             </div>
             <div class="col-md-6 col-sm-12 in">
               <div class="single_monail_apps_text">
-                <h4>Descarga nuestra app ahora!</h4>
+                <h4>¡Descarga nuestra App!</h4>
                 <h1>
                   Mobile App <span>Disponible en la PlayStore</span>
                 </h1>

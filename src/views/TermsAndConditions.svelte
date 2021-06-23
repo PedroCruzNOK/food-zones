@@ -13,7 +13,7 @@
                   class="wow animated rubberBand text-center head_title"
                   id=""
                 >
-                  Terminos
+                  Términos
                 </h4>
                 <h3
                   class="wow animated rubberBand text-center py-3"
@@ -48,7 +48,7 @@
                 </div>
                 <div class="collapse" id="collapseExample3">
                   <div class="card card-body">
-                    Terminos y condiciones
+                    Términos y condiciones
                   </div>
                 </div>
                 <div class="collapse" id="collapseExample6">
@@ -146,5 +146,10 @@
 
 
 <style>
-
+  .portfolio{
+    margin-left: -14px;
+    margin-right: -13px;
+    
+  
+  }
 </style>

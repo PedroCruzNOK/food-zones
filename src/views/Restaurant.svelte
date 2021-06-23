@@ -33,7 +33,7 @@
                   id="email"
                   placeholder="Correo electronico"
                 />
-                <label for="email">Correo electronico</label>
+                <label for="email">Correo electrónico</label>
               </div>
 
               <div class="form-floating mb-3">
@@ -53,7 +53,7 @@
                   id="direccion"
                   placeholder="Direcciòn de tu negocio"
                 />
-                <label for="direccion">Direcciòn de tu negocio</label>
+                <label for="direccion">Dirección de tu negocio</label>
               </div>
 
               <div class="form-floating mb-3">
@@ -88,7 +88,7 @@
     </div>
   </div>
 </section>
-<section class="portfolio ">
+<section class="portfolio">
   <div class="container">
     <div class="row">
       <h4 class="wow animated rubberBand text-center head_title">
@@ -122,11 +122,11 @@
 </section>
 
 
-<section class="portfolio ">
+<section class="portfolio px-0">
   <div class="container">
     <div class="row">
       <h4 class="wow animated rubberBand text-center head_title">
-        Cómo funciona Uber Eats para los Restaurantes Socios
+        ¿Cómo funciona Food Zone para los Restaurantes Socios?
       </h4>
       <div class="col-md-sm-12 col-md-4">
         <h3>Los clientes hacen un pedido
@@ -154,4 +154,14 @@
 </section>
 
 <style>
+  .slider-restaurant{
+    margin-left: -14px;
+    margin-right: -13px;
+  }
+  .portfolio{
+    margin-left: -14px;
+    margin-right: -13px;
+    
+  
+  }
 </style>

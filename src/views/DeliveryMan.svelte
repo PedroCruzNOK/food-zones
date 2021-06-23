@@ -10,7 +10,7 @@
           ¿Quieres ser repartidor?
         </h4>
         <h3 class="wow animated rubberBand text-center pb-2" id="">
-          Contactanos si te interesa formar parte de nuestro equipo
+          ¡Contáctanos para formar parte de nuestro equipo!
         </h3>
         <div class="col-md-6 col-sm-12">
           <p class="wow animated zoomIn text-center h3 pt-5">
@@ -41,7 +41,7 @@
                   id="email"
                   placeholder="Correo electronico"
                 />
-                <label for="email">Correo electronico</label>
+                <label for="email">Correo electrónico</label>
               </div>
 
               <div class="form-floating mb-3">
@@ -137,5 +137,11 @@
   .hero-bottom-img {
     max-width: 100%;
     width: 100%;
+  }
+  .portfolio{
+    margin-left: -14px;
+    margin-right: -13px;
+    
+  
   }
 </style>

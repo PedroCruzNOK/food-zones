@@ -11,14 +11,9 @@
               class="text-center wow animated rubberBand "
               data-animation="flash"
             >
-              Realiza tu pedido ahora!
+              ¿Cómo realizar un pedido?
             </h4>
-            <h3
-              class="text-center wow animated rubberBand py-3"
-              data-animation="flash"
-            >
-              Proceso para realizar un pedido
-            </h3>
+           
 
             <div
               class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
@@ -33,7 +28,7 @@
                   />
                   <div class="card-body">
                     <h5 class="card-title text-center">
-                      Registrate en Food Zone
+                      Regístrate en Food Zone
                     </h5>
                   </div>
                 </div>
@@ -44,7 +39,7 @@
                   <img src="./img/FZ 4.png" class="card-img-top center-img" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title text-center">
-                      Escane el código QR de tu platillos
+                      Escaneé el código QR de tu mesa
                     </h5>
                   </div>
                 </div>
@@ -82,7 +77,7 @@
                 <div class="card">
                   <img src="./img/FZ5.png" class="card-img-top mx-auto" alt="..."     style="width: 40%;"/>
                   <div class="card-body ">
-                    <h5 class="card-title text-center">Recibe recompenzas</h5>
+                    <h5 class="card-title text-center">Recibe una recompensa</h5>
                   </div>
                 </div>
               </div>

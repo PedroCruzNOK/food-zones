@@ -18,7 +18,7 @@
                             class="wow animated rubberBand text-center py-3"
                             id=""
                           >
-                          Contactanos
+                          Contáctanos
                           </h3>
 
                             <form action="" autocomplete="off">
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="input-group mb-3">
                                   <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
-                                  <input type="text" class="form-control" placeholder="Corrreo electronico" aria-label="Corrreo electronico" aria-describedby="basic-addon1">
+                                  <input type="text" class="form-control" placeholder="Corrreo electrónico" aria-label="Corrreo electronico" aria-describedby="basic-addon1">
                                 </div>
                                 <div class="input-group mb-3">
                                   <span class="input-group-text"><i class="bi bi-chat-dots"></i></span>
