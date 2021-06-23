@@ -13,14 +13,14 @@
       >
         <div class="col-md-12">
           <div class="head_title text-center">
-            <h4>Se parte de nuestro equipo!</h4>
+            <h4>¡Sé parte de nuestro equipo!</h4>
             <h3>Colaboradores</h3>
           </div>
 
 
           <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3">
             <Link to="/restaurante" class="btn btn-primary me-md-2" type="button">Restaurante</Link>
-            <Link to="/repartidor" class="btn btn-secondary me-md-2" type="button">Repartidor</Link>
+            <Link to="/repartidor" class="btn btn-primary me-md-2" type="button">Repartidor</Link>
            
           </div>
 
@@ -107,101 +107,7 @@
             </div>
 
 
-            <h4>Bolsa de trabajo</h4>
-            <div class="row">
-              <div class="row row-cols-1 row-cols-md-2 g-4">
-
-
-                <div class="col">
-                  <div class="card  h-100">
-                    <div class="card-body">
-                      <h5 class="card-title">Cheff</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                      <a href="#" class="card-link">hace 5 días</a>
-                      <a href="#" class="card-link">Detalles</a>
-                    </div>
-                  </div>
-                </div>
-
-
-
-                <div class="col">
-                  <div class="card  h-100">
-                    <div class="card-body">
-                      <h5 class="card-title">Ayudante general</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                      <a href="#" class="card-link">hace 5 días</a>
-                      <a href="#" class="card-link">Detalles</a>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col">
-                  <div class="card  h-100">
-                    <div class="card-body">
-                      <h5 class="card-title">Cheff</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                      <a href="#" class="card-link">hace 5 días</a>
-                      <a href="#" class="card-link">Detalles</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card  h-100">
-                    <div class="card-body">
-                      <h5 class="card-title">Cheff</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                      <a href="#" class="card-link">hace 5 días</a>
-                      <a href="#" class="card-link">Detalles</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card  h-100">
-                    <div class="card-body">
-                      <h5 class="card-title">Cheff</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                      <a href="#" class="card-link">hace 5 días</a>
-                      <a href="#" class="card-link">Detalles</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card  h-100">
-                    <div class="card-body">
-                      <h5 class="card-title">Cheff</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-
-                    <div class="card-footer text-muted">
-                      <a href="#" class="card-link">hace 5 días</a>
-                      <a href="#" class="card-link">Detalles</a>
-                    </div>
-                  </div>
-                </div>
-
-
-  
-
-
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

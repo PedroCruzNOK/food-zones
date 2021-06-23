@@ -11,7 +11,6 @@
   import Pedir from "./views/Pedir.svelte";
   import Noticias from "./views/Noticias.svelte";
   import Questions from "./views/Questions.svelte";
-  import Conditions from "./views/Conditions.svelte";
   import Restaurant from "./views/Restaurant.svelte";
   import DeliveryMan from "./views/DeliveryMan.svelte";
 </script>

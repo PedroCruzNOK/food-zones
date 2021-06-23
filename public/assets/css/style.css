@@ -42,6 +42,7 @@ h1, h2,h3, h4, h5, h6{
 h1{
     font-size: 6rem;
     color: #e03c36;
+    font-weight: 700;
 }
 h2{
     font-size: 5rem;
@@ -628,6 +629,11 @@ a.navbar-brand.our_logo{
 	background:url(../../img/FZ\ 1.png) center center no-repeat;
 	background-size:cover;
 }
+.slider2{
+    height:900px;
+	background:url(../../img/Fz4.png) center center no-repeat;
+	background-size:cover;
+}
 .main_slider {
 	height: 200%;
 }
@@ -705,7 +711,6 @@ color: #e03c36;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	width: 100%;
 	overflow: hidden;	
 }
 
@@ -822,16 +827,7 @@ color: #e03c36;
 
 /* Mobail Apps Section css */
 
-.mobailapps{
-	background:url(../../img/tarjetaCompra.jpg) top center no-repeat scroll;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	overflow: hidden;
-	position:relative;
-}
+
 
 .main_mobail_apps_content{
     margin: 80px 0px;
@@ -880,7 +876,7 @@ color: #e03c36;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	width: 100%;
+	
 	overflow: hidden;
 }
 .footer_widget_content{

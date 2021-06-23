@@ -45,15 +45,13 @@
                 </li>
                 <li class="nav-item">
                   <Link to="/terminos-condiciones" class="nav-link active activo"
-                    >Terminos</Link
+                    >Términos</Link
                   >
                 </li>
                 <li class="nav-item">
                   <Link to="/contacto" class="nav-link active activo">Contacto</Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="/" class="nav-link active activo"><i class="fa fa-phone " /> 775 96 8540</Link>
-                </li>
+                
               </ul>
             </div>
           </div>

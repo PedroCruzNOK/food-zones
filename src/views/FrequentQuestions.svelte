@@ -19,13 +19,13 @@
               class="wow animated rubberBand text-center"
               id=""
             >
-              Preguntanos
+              ¿Necesitas ayuda?
             </h4>
             <h3
               class="wow animated rubberBand text-center py-3"
               id=""
             >
-              Nosotros te ayudamos
+              Preguntas frecuentes
             </h3>
 
             <div class="accordion pb-5" id="accordionPanelsStayOpenExample">

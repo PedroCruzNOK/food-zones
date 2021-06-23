@@ -14,7 +14,7 @@
                 Nosotros
               </h4>
               <h3 class=" wow animated rubberBand  text-center py-3">
-                  Quienes somos y que hacemos
+                  ¿Quiénes somos y qué hacemos?
               </h3>
             
               <img
@@ -60,7 +60,7 @@
                 </p>
               </div>
 
-              <h4 class="text-center py-3">Nuestroos valores Valores</h4>
+              <h4 class="text-center py-3">Nuestros Valores</h4>
               <div class="row">
                 <div class="col wow zoomInDown animated">
                   <div class="card h-100">
@@ -72,9 +72,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Servicio Personalizado</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below.
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
@@ -87,9 +85,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Innovación</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
@@ -102,9 +98,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Calidad</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
@@ -117,9 +111,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Honestidad</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below as
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
@@ -133,9 +125,7 @@
                     />
                     <div class="card-body">
                       <h5 class="card-title">Responsabilidad</h5>
-                      <p class="card-text">
-                        This is a longer card with supporting text below
-                      </p>
+                      
                     </div>
                   </div>
                 </div>

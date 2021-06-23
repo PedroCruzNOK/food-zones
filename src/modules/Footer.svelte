@@ -2,39 +2,38 @@
 <script>
     import { Router, Link, Route } from "svelte-routing";
 </script>
+
 <section id="footer_widget" class="footer_widget px-0">
-    <div class="">
-      <div class="row">
-        <div class="footer_widget_content text-center">
-          <div class="col-md-3 in">
+    <div class="container">
+      <div class="row ">
+        <div class="ms-3">
+          <div class="col-md-6 in px-0">
             <div class="single_widget wow fadeIn" data-wow-duration="2s">
-              <h4>Ubicacion</h4>
+              <h4>Contacto</h4>
   
               <div class="single_widget_info">
                 <p>
-                  Acercate y te asesoramos
-                  
-  
-                  <span>Te elit putent propriae eum,</span>
-                  <span>aliquip nominati</span>
-                  <span class="phone_email"> Teléfono: (222) 620 0600</span>
-                  <span>Corre: @foodzone.com</span>
+                  <i class="bi bi-house"></i>  La Paz, Puebla, México, 72160. 
+                  <span ><i class="bi bi-telephone"></i>  Teléfono: (222) 620 0600</span>
+                  <span><i class="bi bi-envelope"></i>  Email: contacto@foodzone.com</span>
                 </p>
               </div>
   
               <div class="footer_socail_icon">
-                <a href=""><i class="fa fa-facebook" /></a>
-                <a href=""><i class="fa fa-twitter" /></a>
-                <a href=""><i class="fa fa-phone" /></a>
+                <a href="google.com"><img src="img/facebook.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="img/instagram.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="img/gorjeo.png" alt="" class="redIcon"></a>
+                <a href="google.com"><img src="img/linkedin.png" alt="" class="redIcon"></a>
+                
                
               </div>
             </div>
           </div>
   
-          <div class="col-md-3 in">
+          <div class="col-md-5 in">
             <div class="single_widget wow fadeIn" data-wow-duration="4s">
-              <h4>Mas sobre nosotros</h4>
-              <br><br>
+              <h4>Categorías</h4>
+              
               <div class="">
                 <ul class="">
                   <li class="">
@@ -52,7 +51,7 @@
                   <li class="">
                     <Link to="/pedir" class=" activo">Pedido</Link>
                   </li>
-                  <br>
+                 
                   <li class="">
                     <Link to="/noticias" class=" activo">Noticias</Link>
                   </li>
@@ -85,6 +84,19 @@
   <style>
     .in{
       display: inline-block;
+    }
+    .single_widget_info{
+      color: white;
+    }
+    .redIcon{
+      width: 35px;
+      height: auto;
+      margin-right: 10px;
+      
+    }
+    .footer_widget{
+      margin-left: -14px;
+      margin-right: -13px;
     }
 
   </style>
