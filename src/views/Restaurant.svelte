@@ -1,5 +1,5 @@
 <script>
-  import { Link } from "svelte-routing";
+  import {Link} from "svelte-routing";
 </script>
 
 <section id="slider" class="slider-restaurant">
@@ -7,7 +7,9 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-5 wow zoomIn">
-          <h1 class="head_title ">Un mundo de clientes a tu alcance</h1>
+          <h1 class="head_title font-weight-bold">
+            Un mundo de clientes a tu alcance
+          </h1>
           <p class="text-light">
             La plataforma que te brinda la flexibilidad, visibilidad y
             conocimientos que necesitas para conectarte con más clientes.
@@ -68,15 +70,20 @@
               </div>
               <p class="text-light">
                 Al enviar tu información, aceptas que Food Zone y declaras haber
-                leído los <a href="8">Términos y condiciones</a> y la
-                <a href="/">Política de privacidad</a>.
+                leído los <a href="/" class="text-white font-weight-bold"
+                  >Términos y condiciones</a
+                >
+                y la
+                <a href="/" class="text-white font-weight-bold"
+                  >Política de privacidad</a
+                >.
               </p>
               <div class="col-auto">
                 <button type="button" class="btn btn-primary"
                   >Enviar Registro</button
                 >
                 <Link
-                  to="food-zone/colaboradores"
+                  to="colaboradores"
                   class="btn btn-secondary me-md-2"
                   type="button">Regresar</Link
                 >
@@ -121,7 +128,6 @@
   </div>
 </section>
 
-
 <section class="portfolio px-0">
   <div class="container">
     <div class="row">
@@ -129,24 +135,22 @@
         ¿Cómo funciona Food Zone para los Restaurantes Socios?
       </h4>
       <div class="col-md-sm-12 col-md-4">
-        <h3>Los clientes hacen un pedido
-        </h3>
+        <h3>Los clientes hacen un pedido</h3>
         <p>
-          Un cliente encuentra tu restaurante y realiza un pedido a través de la app de Food Zone.
+          Un cliente encuentra tu restaurante y realiza un pedido a través de la
+          app de Food Zone.
         </p>
       </div>
       <div class="col-md-sm-12 col-md-4">
         <h3>Tú lo preparas</h3>
-        <p>
-          El restaurante acepta el pedido y lo prepara.
-        </p>
+        <p>El restaurante acepta el pedido y lo prepara.</p>
       </div>
 
       <div class="col-md-sm-12 col-md-4">
-        <h3>Llegan los Socios Repartidores
-        </h3>
+        <h3>Llegan los Socios Repartidores</h3>
         <p>
-          Los Socios Repartidores que usan la plataforma Food Zone a recolectar el pedido en el restaurante y se lo entregan al cliente.
+          Los Socios Repartidores que usan la plataforma Food Zone a recolectar
+          el pedido en el restaurante y se lo entregan al cliente.
         </p>
       </div>
     </div>
@@ -154,14 +158,12 @@
 </section>
 
 <style>
-  .slider-restaurant{
+  .slider-restaurant {
     margin-left: -14px;
     margin-right: -13px;
   }
-  .portfolio{
+  .portfolio {
     margin-left: -14px;
     margin-right: -13px;
-    
-  
   }
 </style>
