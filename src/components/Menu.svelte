@@ -44,7 +44,7 @@
             </li>
             <li class="nav-item">
               <Link to="terminos-condiciones" class="nav-link active activo"
-                >Terminos</Link
+                >Términos</Link
               >
             </li>
             <li class="nav-item">
