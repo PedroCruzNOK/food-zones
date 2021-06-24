@@ -19,36 +19,36 @@
 <div class="container-fluid">
   <Router >
     <Header />
-    <Route path="food-zone/">
+    <Route path="/">
       <Home />
     </Route>
 
-    <Route path="food-zone/colaboradores/">
+    <Route path="colaboradores">
       <Partners />
     </Route>
-    <Route path="food-zone/nosotros/">
+    <Route path="nosotros">
       <About />
     </Route>
-    <Route path="food-zone/preguntas-frecuentes/">
+    <Route path="preguntas-frecuentes/">
       <FrequentQuestions />
     </Route>
-    <Route path="food-zone/pedir/">
+    <Route path="pedir">
       <Pedir />
     </Route>
-    <Route path="food-zone/noticias/">
+    <Route path="noticias">
       <Noticias />
     </Route>
-    <Route path="food-zone/terminos-condiciones/">
+    <Route path="terminos-condiciones">
       <TermsAndConditions />
     </Route>
-    <Route path="food-zone/contacto/">
+    <Route path="contacto">
       <ContactUs />
     </Route>
-    <Route path="food-zone/restaurante/">
+    <Route path="restaurante">
       <Restaurant />
     </Route>
 
-    <Route path="food-zone/repartidor/">
+    <Route path="repartidor">
       <DeliveryMan />
     </Route>
 

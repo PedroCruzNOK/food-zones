@@ -90,7 +90,7 @@
                   >Enviar Registro</button
                 >
                 <Link
-                  to="food-zone/colaboradores"
+                  to="colaboradores"
                   class="btn btn-secondary me-md-2"
                   type="button">Regresar</Link
                 >

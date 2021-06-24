@@ -1,7 +1,5 @@
 <script>
-	import { Link } from 'svelte-routing';
-
-
+  import {Link} from "svelte-routing";
 </script>
 
 <section id="portfolio" class="portfolio">
@@ -17,11 +15,13 @@
             <h3>Colaboradores</h3>
           </div>
 
-
           <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3">
-            <Link to="food-zone/restaurante" class="btn btn-primary me-md-2" type="button">Restaurante</Link>
-            <Link to="food-zone/repartidor" class="btn btn-primary me-md-2" type="button">Repartidor</Link>
-           
+            <Link to="restaurante" class="btn btn-primary me-md-2" type="button"
+              >Restaurante</Link
+            >
+            <Link to="repartidor" class="btn btn-primary me-md-2" type="button"
+              >Repartidor</Link
+            >
           </div>
 
           <div class="main_portfolio_content">
@@ -32,7 +32,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              
+
               <h5>La Noria</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -42,7 +42,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-             
+
               <h5>La corregidora</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -52,7 +52,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-            
+
               <h5>La casona</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -62,7 +62,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-             
+
               <h5>Pizza and food</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -72,7 +72,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              
+
               <h5>Barcleys</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -82,7 +82,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              
+
               <h5>Restaurantes palacios</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -92,7 +92,7 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              
+
               <h5>hermenejildo galeana</h5>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
@@ -102,12 +102,9 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-              
+
               <h5>paseo bravo</h5>
             </div>
-
-
-           
           </div>
         </div>
       </div>
