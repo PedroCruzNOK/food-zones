@@ -18,7 +18,6 @@
       </div>
     </div>
   </section>
-
   <style>
     .tituloSlider{
       font-weight: 700;

@@ -1,8 +1,4 @@
-<script>
-</script>
-
 <div class="row">
-  
   <main>
     <div class="position-relative overflow-hidden  bg-light ">
       <div class="col-md-12">
@@ -156,7 +152,3 @@
     </div>
   </main>
 </div>
-
-<style>
-
-</style>

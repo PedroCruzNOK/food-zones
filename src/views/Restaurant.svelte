@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-5 wow zoomIn">
-          <h1 class="head_title font-weight-bold">
+          <h1 class="head_title font-weight-bold fs-1">
             Un mundo de clientes a tu alcance
           </h1>
           <p class="text-light">
@@ -16,7 +16,8 @@
             Asóciate con nosotros hoy mismo.
           </p>
         </div>
-        <div class="col-sm-12 col-md-7">
+        <br>
+        <div class="col-sm-12 col-md-7 mt-5">
           <form action="" autocomplete="off">
             <div class="row wow zoomIn">
               <div class="form-floating mb-3">
@@ -101,16 +102,16 @@
       <h4 class="wow animated rubberBand text-center head_title">
         ¿Por qué elegir Food Zone?
       </h4>
-      <div class="col-md-sm-12 col-md-4">
-        <h3>Realiza entregas a tu manera</h3>
-        <p>
+      <div class="col-md-sm-12 col-md-4 ">
+        <h3 class="fs-1">Realiza entregas a tu manera</h3>
+        <p class=" ">
           Nuestras ofertas son flexibles para que puedas personalizarlas según
           tus necesidades. Comienza con tus repartidores o con los socios
           repartidores que usan la app de Food Zone.
         </p>
       </div>
       <div class="col-md-sm-12 col-md-4">
-        <h3>Aumenta tu visibilidad</h3>
+        <h3 class="fs-1">Aumenta tu visibilidad</h3>
         <p>
           Destácate con publicidad en la app para llegar a más clientes y
           aumentar las ventas.
@@ -118,7 +119,7 @@
       </div>
 
       <div class="col-md-sm-12 col-md-4">
-        <h3>Conéctate con los clientes</h3>
+        <h3 class="fs-1">Conéctate con los clientes</h3>
         <p>
           Usa datos procesables, responde las opiniones u ofrece un programa de
           lealtad para atraer clientes habituales.
@@ -135,19 +136,19 @@
         ¿Cómo funciona Food Zone para los Restaurantes Socios?
       </h4>
       <div class="col-md-sm-12 col-md-4">
-        <h3>Los clientes hacen un pedido</h3>
+        <h3 class="fs-1">Los clientes hacen un pedido</h3>
         <p>
           Un cliente encuentra tu restaurante y realiza un pedido a través de la
           app de Food Zone.
         </p>
       </div>
       <div class="col-md-sm-12 col-md-4">
-        <h3>Tú lo preparas</h3>
+        <h3 class="fs-1">Tú lo preparas</h3>
         <p>El restaurante acepta el pedido y lo prepara.</p>
       </div>
 
       <div class="col-md-sm-12 col-md-4">
-        <h3>Llegan los Socios Repartidores</h3>
+        <h3 class="fs-1">Llegan los Socios Repartidores</h3>
         <p>
           Los Socios Repartidores que usan la plataforma Food Zone a recolectar
           el pedido en el restaurante y se lo entregan al cliente.
@@ -158,6 +159,13 @@
 </section>
 
 <style>
+  p{
+    font-size: 0.8em;
+  }
+  form{
+    font-size: 0.8em;
+  }
+ 
   .slider-restaurant {
     margin-left: -14px;
     margin-right: -13px;

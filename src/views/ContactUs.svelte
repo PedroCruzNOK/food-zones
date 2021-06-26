@@ -1,5 +1,3 @@
-<script>
-</script>
 
 <div class="row">
   <main>
@@ -64,5 +62,3 @@
   </main>
 </div>
 
-<style>
-</style>

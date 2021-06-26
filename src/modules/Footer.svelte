@@ -2,15 +2,13 @@
 <script>
     import { Router, Link, Route } from "svelte-routing";
 </script>
-
 <section id="footer_widget" class="footer_widget px-0">
     <div class="container">
       <div class="row ">
         <div class="ms-3">
           <div class="col-md-6 in px-0">
             <div class="single_widget wow fadeIn" data-wow-duration="2s">
-              <h4>Contacto</h4>
-  
+              <h4>Contacto</h4> 
               <div class="single_widget_info">
                 <p>
                   <i class="bi bi-house"></i>  La Paz, Puebla, México, 72160. 
@@ -18,18 +16,14 @@
                   <span><i class="bi bi-envelope"></i>  Email: contacto@foodzone.com</span>
                 </p>
               </div>
-  
               <div class="footer_socail_icon">
                 <a href="google.com"><img src="./img/facebook.png" alt="" class="redIcon"></a>
                 <a href="google.com"><img src="./img/instagram.png" alt="" class="redIcon"></a>
                 <a href="google.com"><img src="./img/gorjeo.png" alt="" class="redIcon"></a>
                 <a href="google.com"><img src="./img/linkedin.png" alt="" class="redIcon"></a>
-                
-               
               </div>
             </div>
           </div>
-  
           <div class="col-md-5 in">
             <div class="single_widget wow fadeIn" data-wow-duration="4s">
               <h4>Categorías</h4>

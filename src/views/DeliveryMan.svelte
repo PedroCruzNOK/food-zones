@@ -1,7 +1,6 @@
 <script>
   import { Link } from "svelte-routing";
 </script>
-
 <section class="portfolio " id="portfolio">
   <main>
     <div class="container">
@@ -132,7 +131,6 @@
     </div>
   </main>
 </section>
-
 <style>
   .hero-bottom-img {
     max-width: 100%;
@@ -141,7 +139,5 @@
   .portfolio{
     margin-left: -14px;
     margin-right: -13px;
-    
-  
   }
 </style>

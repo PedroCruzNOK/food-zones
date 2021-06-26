@@ -1,7 +1,6 @@
 <script>
   import {Link} from "svelte-routing";
 </script>
-
 <section id="portfolio" class="portfolio">
   <div class="container">
     <div class="row">
@@ -102,7 +101,6 @@
                 <p class="product_price">$12</p>
                 <a href="" class="btn btn-primary">Click here</a>
               </div>
-
               <h5>paseo bravo</h5>
             </div>
           </div>
