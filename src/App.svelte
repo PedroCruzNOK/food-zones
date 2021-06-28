@@ -10,9 +10,9 @@
   import About from "./views/About.svelte";
   import Pedir from "./views/Pedir.svelte";
   import Noticias from "./views/Noticias.svelte";
-  import Questions from "./views/Questions.svelte";
   import Restaurant from "./views/Restaurant.svelte";
   import DeliveryMan from "./views/DeliveryMan.svelte";
+  import Menuprueba from "./components/Menuprueba.svelte";
 
 </script>
 
@@ -21,6 +21,9 @@
     <Header />
     <Route path="/">
       <Home />
+    </Route>
+    <Route path="/prueba">
+      <Menuprueba />
     </Route>
 
     <Route path="colaboradores">
